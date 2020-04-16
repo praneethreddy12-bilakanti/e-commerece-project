@@ -21,7 +21,7 @@ public class LadiesDressesController {
 
 	@GetMapping("/")
 	public List<LadiesDress> getAllLadiesPorducts() {
-System.out.println("................................");
+System.out.println(".......praneeth.........................");
 		return service.getAllLadiesDessDetails();
 	}
 
