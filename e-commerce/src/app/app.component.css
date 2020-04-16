@@ -1,0 +1,174 @@
+body
+{
+    background-color: white;
+}
+#foot{
+    background-color:#999999;
+    padding:10px;
+    border-radius:5px;
+    margin:0px 10px 10px 10px;
+    clear:both;
+}
+
+.logo-container
+{
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+.logo-container .logo-image
+{
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+.logo-container .search-box
+{
+    height: 100px;
+    width: 60%;
+    float: left;
+    background-color: white;
+}
+.logo-container .menu-bar
+{
+    height: 100px;
+    width: 20%;
+    float: left;
+    background-color: greenyellow;
+}
+.logo
+{
+    height: 100px;
+
+    width: 100%;
+}
+.logo-container .search-box .form-control
+{
+	border: 1px solid orange;
+	border-top-left-radius:20px !important;
+	border-bottom-left-radius:20px !important;
+	border-top-right-radius:0px !important;
+    box-shadow: none !important;
+    width: 90%;
+    float: left;
+    height: 100%;
+}
+.logo-container .search-box .input-group-text
+{
+
+    background-color: white;
+	background:orange !important;
+	border:1px solid orange !important;
+	margin: 0px 10px 30px 0px !important;
+	height:100%;
+	box-shadow: none !important;
+	cursor:pointer;
+	border-top-right-radius:40px !important;
+    border-bottom-right-radius:40px !important;
+    width:10%;
+
+}
+
+.fa-search
+{
+    color:white;
+    float: left;
+    height: 40px;
+    size: 20px;
+}
+
+
+
+.logo-container .menu-bar ul
+{
+	display:inline-flex;
+    float:right;
+    padding-right: 10px;
+
+}
+.logo-container .menu-bar ul li
+{
+
+	list-style-type:none;
+    text-align:center;
+
+	cursor:pointer;
+	height:100px;
+	padding-top:30px;
+    padding-left:10px;
+    padding-right: 6px;
+    text-align: center;
+
+
+}
+.logo-container.menu-bar ul li a 
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+    margin-right:30px;
+}
+.navigation
+{
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-image: url("https://previews.123rf.com/images/aekkarat/aekkarat1708/aekkarat170800084/84129350-supermarket-store-abstract-blur-background-with-shopping-cart-supermarket-aisle-with-empty-shopping-.jpg");
+
+}
+
+.navigation .left-navigation
+{
+    height: 400px;
+    width: 30%;
+    float: left;
+
+}
+.navigation .slideshow
+{
+    height: 400px;
+    width: 70%;
+    float: left;
+
+
+}
+.footer
+{
+    background-color:thistle;
+}
+.all-mobile-mens-ladies
+{
+    height: 600px;
+    width: 100%;
+    float: left;
+    background-color:white;
+    border-left: 1px solid;
+}
+
+.all-mobile-mens-ladies .mobiles
+{
+    height: 600px;
+    width: 33%;
+    float: left;
+    border-left: 1px solid;
+
+}
+
+.all-mobile-mens-ladies .ladies
+{
+    height:  600px;
+    width: 34%;
+    float: left;
+    border-left: 1px solid;
+
+}
+
+.all-mobile-mens-ladies .mens
+{
+    height:  600px;
+    width: 33%;
+    float: left;
+    border-left: 1px solid;
+
+}
