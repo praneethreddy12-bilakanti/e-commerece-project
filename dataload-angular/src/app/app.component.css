@@ -1,0 +1,10 @@
+a
+{
+    padding: 10px;
+text-transform: uppercase;
+text-align: center;}
+a:hover
+{
+   
+    background-color:orange;
+}

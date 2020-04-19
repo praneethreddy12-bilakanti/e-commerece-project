@@ -1,0 +1,49 @@
+<h1>{{message}}</h1>
+
+<form>
+    <div class="form-group">
+        mobilesProductId: <input type="number" name="mobilesProductId"
+            [(ngModel)]="dbvalues.mobilesProductId" class='form-control'><br>
+       <span> {{dbvalues.mobilesProductId}}</span>
+
+    </div>
+    <div class="form-group"> upload image: <input type="file" (change)="selectFile($event)" class="form-control"
+            name="mobilesImage" [(ngModel)]='dbvalues.mobilesImage'><br />
+    </div>
+
+    <div class="form-group">
+        mobilesPorductPrice: <input type="number" name="mobilesPorductPrice"
+            [(ngModel)]="dbvalues.mobilesPorductPrice" class='form-control'><br>
+       <span> {{dbvalues.mobilesPorductPrice}}</span>
+
+    </div>
+    <div class="form-group">
+        mobilessQuantity: <input type="number" name="mobilessQuantity"
+            [(ngModel)]="dbvalues.mobilessQuantity" class="form-control"><br>
+    <span> {{dbvalues.mobilessQuantity}}</span>
+ 
+    </div>
+    <div class="form-group">
+        mobilesProductDescription: <input type="text" name="mobilesProductDescription"
+            [(ngModel)]="dbvalues.mobilesProductDescription" class="form-control"><br>
+     <span> {{dbvalues.mobilesProductDescription}}</span> 
+    
+    </div>
+    <div class="form-group">
+        TYPE OF MOBILE
+        <select class="ui search dropdown" [(ngModel)]="dbvalues.mobileType" class="form-control" name="mobileType"><br>
+            <option value="SHIRTS">MI</option>
+            <option value="T-SHIRT">REDMI</option>
+            <option value="DRESSES">SAMSUNG</option>
+            <span> {{dbvalues.mobileType}}</span>
+
+        </select>
+
+    </div>
+
+
+
+    <input type="submit" value="submit" (click)="uploaadToMobilesDB()" class="form-group" />
+
+</form>
+<hr>

@@ -1,0 +1,13 @@
+form
+{
+    height: 700px;
+    width: 700px;
+    margin-left: 50px;
+    background-color: rgb(250, 255, 238);
+}
+
+span
+{
+    text-align: center;
+    margin-left: 10px;
+}

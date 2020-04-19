@@ -1,0 +1,47 @@
+<div class="main-container">
+    <h1>{{message}}</h1>
+
+    <form>
+        <div class="form-group">
+            meansDressProductId: <input type="number" name="meansDressProductId"
+                [(ngModel)]="meansData.meansDressProductId" class='form-control'><br>
+            <span> {{meansData.meansDressProductId}}</span>
+        </div>
+        <div class="form-group"> upload image: <input type="file" (change)="selectFile($event)" class="form-control"
+                name="meansDressImage" [(ngModel)]='meansData.meansDressImage'><br />
+        </div>
+
+        <div class="form-group">
+            meansDressPorductPrice: <input type="number" name="meansDressPorductPrice"
+                [(ngModel)]="meansData.meansDressPorductPrice" class='form-control'><br>
+            <span> {{meansData.meansDressPorductPrice}}</span>
+        </div>
+        <div class="form-group">
+            meansDresssQuantity: <input type="number" name="meansDresssQuantity"
+                [(ngModel)]="meansData.meansDresssQuantity" class="form-control"><br>
+            <span> {{meansData.meansDresssQuantity}}</span>
+        </div>
+        <div class="form-group">
+            meansDressProductDescription: <input type="text" name="meansDressProductDescription"
+                [(ngModel)]="meansData.meansDressProductDescription" class="form-control"><br>
+            <span> {{meansData.meansDressProductDescription}}</span>
+        </div>
+
+        <div class="form-group">
+            TYPE OF DRESS
+            <select class="ui search dropdown" [(ngModel)]="meansData.dressType" class="form-control" name="dressType"><br>
+                <option value="SHIRTS">SHIRTS</option>
+                <option value="T-SHIRT">T-SHIRT</option>
+                <option value="DRESSES">DRESSES</option>
+                <span> {{meansData.dressType}}</span>
+
+            </select>
+
+        </div>
+    <input type="submit" value="submit"  (click)=" uploaadToMeansDB()" class="form-group" />
+
+
+    </form>
+    <hr>
+
+</div>

@@ -1,0 +1,34 @@
+<h1>{{message}}</h1>
+
+<form>
+    <div class="form-group">
+        ladiesDressProductId: <input type="number" name="ladiesDressProductId"
+            [(ngModel)]="dbvalues.ladiesDressProductId" class='form-control'>
+        <span> {{dbvalues.ladiesDressProductId}}</span>
+    </div>
+    <div class="form-group"> upload image: <input type="file" (change)="selectFile($event)" class="form-control"
+            name="ladiesDressImage" [(ngModel)]='dbvalues.ladiesDressImage'>
+    </div>
+
+    <div class="form-group">
+        ladiesDressPorductPrice: <input type="number" name="ladiesDressPorductPrice"
+            [(ngModel)]="dbvalues.ladiesDressPorductPrice" class='form-control'>
+        <span> {{dbvalues.ladiesDressPorductPrice}}</span>
+    </div>
+    <div class="form-group">
+        ladiesDresssQuantity: <input type="number" name="ladiesDresssQuantity"
+            [(ngModel)]="dbvalues.ladiesDresssQuantity" class="form-control">
+        <span> {{dbvalues.ladiesDresssQuantity}}</span>
+    </div>
+    <div class="form-group">
+        ladiesDressProductDescription: <input type="text" name="ladiesDressProductDescription"
+            [(ngModel)]="dbvalues.ladiesDressProductDescription" class="form-control">
+      <span> {{dbvalues.ladiesDressProductDescription}}</span> 
+    </div>
+
+
+
+    <input type="submit" value="submit" (click)="uploaadToLadiesDB()" class="form-group" />
+
+</form>
+<hr>
